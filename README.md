@@ -1,7 +1,9 @@
 # lab12
-this is my first repository
+this is my first lab repository
+
 # Import necessary libraries
-import numpy as np
+import numpy 
+
 import matplotlib.pyplot as plt
 from sklearn.datasets import load_diabetes
 from sklearn.model_selection import train_test_split
@@ -30,3 +32,4 @@ plt.xlabel('BMI')
 plt.ylabel('Diabetes Progression')
 plt.legend()
 plt.show()
+
